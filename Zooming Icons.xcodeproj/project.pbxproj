@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6505A621B58029D00F048D8 /* SocialItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6505A611B58029D00F048D8 /* SocialItemCell.m */; };
+		B6505A651B583B1300F048D8 /* SocialItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B6505A641B583B1300F048D8 /* SocialItem.m */; };
+		B6505A681B5851A100F048D8 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6505A671B5851A100F048D8 /* DetailsViewController.m */; };
+		B6505A6B1B58619B00F048D8 /* ZoomingIconTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = B6505A6A1B58619B00F048D8 /* ZoomingIconTransition.m */; };
 		B6D777EF1B57FE0C001C5544 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D777EE1B57FE0C001C5544 /* main.m */; };
 		B6D777F21B57FE0C001C5544 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D777F11B57FE0C001C5544 /* AppDelegate.m */; };
-		B6D777F51B57FE0C001C5544 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D777F41B57FE0C001C5544 /* ViewController.m */; };
 		B6D777F81B57FE0C001C5544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D777F61B57FE0C001C5544 /* Main.storyboard */; };
 		B6D777FA1B57FE0C001C5544 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D777F91B57FE0C001C5544 /* Images.xcassets */; };
 		B6D777FD1B57FE0C001C5544 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6D777FB1B57FE0C001C5544 /* LaunchScreen.xib */; };
 		B6D778091B57FE0C001C5544 /* Zooming_IconsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D778081B57FE0C001C5544 /* Zooming_IconsTests.m */; };
+		B6D778141B57FF10001C5544 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D778131B57FF10001C5544 /* MenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +31,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B6505A601B58029D00F048D8 /* SocialItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialItemCell.h; sourceTree = "<group>"; };
+		B6505A611B58029D00F048D8 /* SocialItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialItemCell.m; sourceTree = "<group>"; };
+		B6505A631B583B1300F048D8 /* SocialItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialItem.h; sourceTree = "<group>"; };
+		B6505A641B583B1300F048D8 /* SocialItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialItem.m; sourceTree = "<group>"; };
+		B6505A661B5851A100F048D8 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		B6505A671B5851A100F048D8 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		B6505A691B58619B00F048D8 /* ZoomingIconTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomingIconTransition.h; sourceTree = "<group>"; };
+		B6505A6A1B58619B00F048D8 /* ZoomingIconTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomingIconTransition.m; sourceTree = "<group>"; };
 		B6D777E91B57FE0C001C5544 /* Zooming Icons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zooming Icons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D777ED1B57FE0C001C5544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6D777EE1B57FE0C001C5544 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B6D777F01B57FE0C001C5544 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B6D777F11B57FE0C001C5544 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B6D777F31B57FE0C001C5544 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B6D777F41B57FE0C001C5544 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B6D777F71B57FE0C001C5544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6D777F91B57FE0C001C5544 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B6D777FC1B57FE0C001C5544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B6D778021B57FE0C001C5544 /* Zooming IconsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zooming IconsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D778071B57FE0C001C5544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6D778081B57FE0C001C5544 /* Zooming_IconsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Zooming_IconsTests.m; sourceTree = "<group>"; };
+		B6D778121B57FF10001C5544 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		B6D778131B57FF10001C5544 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +95,16 @@
 			children = (
 				B6D777F01B57FE0C001C5544 /* AppDelegate.h */,
 				B6D777F11B57FE0C001C5544 /* AppDelegate.m */,
-				B6D777F31B57FE0C001C5544 /* ViewController.h */,
-				B6D777F41B57FE0C001C5544 /* ViewController.m */,
+				B6D778121B57FF10001C5544 /* MenuViewController.h */,
+				B6D778131B57FF10001C5544 /* MenuViewController.m */,
+				B6505A691B58619B00F048D8 /* ZoomingIconTransition.h */,
+				B6505A6A1B58619B00F048D8 /* ZoomingIconTransition.m */,
+				B6505A631B583B1300F048D8 /* SocialItem.h */,
+				B6505A641B583B1300F048D8 /* SocialItem.m */,
+				B6505A601B58029D00F048D8 /* SocialItemCell.h */,
+				B6505A611B58029D00F048D8 /* SocialItemCell.m */,
+				B6505A661B5851A100F048D8 /* DetailsViewController.h */,
+				B6505A671B5851A100F048D8 /* DetailsViewController.m */,
 				B6D777F61B57FE0C001C5544 /* Main.storyboard */,
 				B6D777F91B57FE0C001C5544 /* Images.xcassets */,
 				B6D777FB1B57FE0C001C5544 /* LaunchScreen.xib */,
@@ -219,9 +239,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6D777F51B57FE0C001C5544 /* ViewController.m in Sources */,
 				B6D777F21B57FE0C001C5544 /* AppDelegate.m in Sources */,
+				B6505A621B58029D00F048D8 /* SocialItemCell.m in Sources */,
+				B6D778141B57FF10001C5544 /* MenuViewController.m in Sources */,
+				B6505A681B5851A100F048D8 /* DetailsViewController.m in Sources */,
 				B6D777EF1B57FE0C001C5544 /* main.m in Sources */,
+				B6505A6B1B58619B00F048D8 /* ZoomingIconTransition.m in Sources */,
+				B6505A651B583B1300F048D8 /* SocialItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +440,7 @@
 				B6D7780E1B57FE0C001C5544 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6D7780F1B57FE0C001C5544 /* Build configuration list for PBXNativeTarget "Zooming IconsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +449,7 @@
 				B6D778111B57FE0C001C5544 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
