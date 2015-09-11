@@ -41,7 +41,7 @@ static NSString * const segueIdentifier = @"showDetails";
     
     UIColor *instagramColor = [UIColor colorWithRed:0.325 green:0.498 blue:0.635 alpha:1];
     
-    SocialItem *socialItem1 = [[SocialItem alloc]initWithImage:@"icon-twitter "color:twitterColor name:@"Twitter" summary:@"Twitter is an online social networking service that enables users to send and read short 140-character messages called \"tweets\".” }"];
+    SocialItem *socialItem1 = [[SocialItem alloc]initWithImage:@"icon-twitter"color:twitterColor name:@"Twitter" summary:@"Twitter is an online social networking service that enables users to send and read short 140-character messages called \"tweets\".” }"];
     
     SocialItem *socialItem2 = [[SocialItem alloc]initWithImage:@"icon-facebook" color:facebookColor name:@"Facebook" summary:@"Facebook (formerly thefacebook) is an online social networking service headquartered in Menlo Park, California. Its name comes from a colloquialism for the directory given to students at some American universities."];
     

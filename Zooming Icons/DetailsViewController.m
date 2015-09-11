@@ -7,7 +7,7 @@
 //
 
 #import "DetailsViewController.h"
-#import "MenuViewController.h"
+
 
 @interface DetailsViewController ()
 
@@ -24,6 +24,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 -(void)configureView{
     

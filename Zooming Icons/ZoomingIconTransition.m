@@ -25,20 +25,21 @@ static const NSTimeInterval kZoomingIconTransitionDuration = 1.0;
 
 - (void)animateTransition:(id<UIViewControllerContextTransitioning>)transitionContext{
     
-    UIViewController *MenuViewController   = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
-    UIViewController* DetailViewController = [transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
+    UIViewController *toVC   = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
+    UIViewController* fromVC = [transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
     
     // add both controller's view to the view hierarchy.
+    toVC.view.alpha= 1.0;
     
-    [[transitionContext containerView] insertSubview:DetailViewController.view belowSubview:MenuViewController.view];
+    [[transitionContext containerView] insertSubview:toVC.view belowSubview:fromVC.view];
     
     
     [UIView animateWithDuration:[self transitionDuration:transitionContext] animations:^{
-        MenuViewController.view.alpha = 0.0;
+        fromVC.view.alpha = 0.0;
         
     } completion:^(BOOL finished) {
         
-        MenuViewController.view.alpha = 1.0;
+
         [transitionContext completeTransition:![transitionContext transitionWasCancelled]];
     }];
     
@@ -47,6 +48,7 @@ static const NSTimeInterval kZoomingIconTransitionDuration = 1.0;
 }
 
 -(id<UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC{
+//    navigationController.delegate = self;
     return self;
 }
 
